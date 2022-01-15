@@ -1,0 +1,175 @@
+/**** font style ****/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1e0e0;
+}
+/*------- navication start -------*/
+.navication-bar-tex{
+    margin-top: 30px;
+}
+li{
+    float: right;
+    display: initial;
+}
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    text-align: right;
+}
+/*------- navication end -------*/
+#header-titel{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.products{
+    display: flex;
+    padding: 70px;
+    margin-left: 40px;
+}
+.titel-text-img{
+    margin-top: 80px;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 40px;
+    color: black;
+    font-weight: 700;
+}
+#firs-button{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #e02c6d;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+#firs-button:hover{
+    box-shadow: 3px 4px #cf2866;
+}
+/* brand logo */
+.brand-logo{
+    display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-row-gap: 10px;
+margin: 40px;
+border: 2px solid #73cc37;
+border-radius: 50px;
+padding: 20px;
+}
+/**** Popular Collection style***/
+#card-titel{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 120px;
+}
+.collection-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 135px;
+}
+.all-card{
+    width: 335px;
+    height: 460px;
+    margin-top: 80px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 40px rgb(239, 240, 240);
+}
+.card-img{
+     margin: 10px 15px;
+     padding-top: 5px;
+}
+.card-star{
+    margin-left: 10px;
+}
+.star{
+    margin-left: 10px;
+    color: orange;
+}
+.ditails{
+    margin: 10px;
+}
+/* second  butoon */
+#secoont-butoon{
+    display: block;
+    color: #e02c6d;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 215px;
+    margin-bottom: 70px;
+}
+/* second button */
+
+/***** extra part ****/
+.extra-file{
+    display: flex;
+}
+#extra-imgfile{
+    width: 500px;
+    height: 600px;
+}
+.extra-file-tex{
+    text-align: left;
+       margin-top: 150px;
+       padding: 5px;
+       font-size: 20px;
+}
+#thert-button{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #e02c6d;
+    padding:10px 20px;
+    border-radius: 30px;
+}
+#thert-button:hover{
+    box-shadow: 3px 4px #cf2866;
+}
+/* brand logo */
+.brand-logo{
+    display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-row-gap: 10px;
+margin: 40px;
+border: 2px solid #73cc37;
+border-radius: 50px;
+padding: 20px;
+}
+
+
+
+
+/***** extra part ****/
+
+/****** foooter ****/
+footer{
+    height: 250px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer-icon a{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+/**** footer ****/
